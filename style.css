@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Poppins';font-size: 22px;
+
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(20, 19, 44);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    
+    
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px 15px;
+    background-color: rgba(61, 61, 61, 0.4);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(.8px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar{
+    padding-right: 9rem;
+}
+.navbar a {
+    align-items: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 30px;
+    
+    
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: .35s ease-in-out;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    
+}
+
+.navbar a:hover {
+    color: rgb(65, 115, 255);
+}
+
+
+/* about sec*/
+
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px 100px 15px;
+    justify-content: center;
+}
+
+
+    
+
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home-content h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 119, 255);
+}
+
+.home-content p {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0 40px;
+    line-height: 1.2;
+}
+
+
+
+/*contact*/
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 21px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.container h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+input, textarea, select {
+    padding: 1px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    resize: none;
+
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(39, 18, 199);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+/* Services Section */
+#services {
+    background-color: rgb(14, 13, 32);
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .services .pre-title {
+    text-align: center;
+  }
+  
+  .services-title {
+    text-align: center;
+  }
+  
+  .service {
+    
+    font-size: 15px ;
+    text-align: center;
+    padding-top: 30px;
+    
+  }
+  
+  .service h4 {
+    margin: 1px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0062ff;
+  }
+  .service p {
+    font-size: 15px;
+  }
+  
+  
+    
+   
+    
+    
+  
+  .service-icon svg {
+    fill: var(--primaryIconColor);
+  }
+  
+  .service-icon {
+    background: var(--thirdBackgroundColor);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem 1.3rem;
+    border-radius: 0.5rem;
+  }
+  
+  .service-icon svg {
+    fill: var(--primaryIconColor);
+  }
+
+ 
+  /* Footer Section */
+  .footer {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+ 
+  
+
+  
+  .footer-social a {
+    color: #fff;
+    background-color: #130066;
+    display: inline-block;
+    margin: 0 5px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 16px;
+    
+  }
+  
+  
+  
+  
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #eaeaea;
+    padding-top: 10px;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+    color: #666;
+  }
+  
